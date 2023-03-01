@@ -3,7 +3,7 @@
 - Java와 OS의 중계자 역할을 하며 플랫폼에 종속적이지 않음
 <br/>
 
-## JVM의 구성요소
+## JVM의 구성과 순서
 1. **Class Loader** (클래스 로더)
     - `.class` 파일(Byte code)을 묶어서 `JVM`이 운영체제로 부터 할당받은 메모리 영역인 `Runtime Data Area`의 `method Area`에 올립니다.
 
