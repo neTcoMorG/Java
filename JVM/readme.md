@@ -12,7 +12,8 @@
     한마디로 바이트 코드를 실행시키는 주체입니다. 바이트 코드를 실행시키는 방식으로 `Interpreter` 방식과 `JIT compiler` 방식이 있습니다 `interpreter`는 명령어 한줄식 바이너리 코드로 변환하고 실행하여 속도가 느린반면 `JIT compiler`는 바이트 코드 전체를 바이너리 코드로 변환하여 실행합니다.
 
 3. **Runtime Data Area**
-    - `Runtime Data Area`는 JVM의 메모리 영역으로 자바 프로그램을 실행시키기 위한 데이터들이 위치하는 영역입니다. <br/>
+    - `Runtime Data Area`는 JVM의 메모리 영역으로 자바 프로그램을 실행시키기 위한 데이터들이 위치하는 영역입니다.
+    
     ![Runtime Data area](https://user-images.githubusercontent.com/24227385/222153708-7facee2e-6641-485b-816a-b47ba70fd088.png)
 
 
