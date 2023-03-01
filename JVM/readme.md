@@ -10,7 +10,7 @@
 ---
 
 1. Class Loader (클래스 로더)
-   - `.class` 파일(Byte code)을 묶어서 `JVM`이 운영체제로 부터 할당받은 메모리 영역인 `Runtime Data Area`의 `method Area`에 올립니다.
+   - `.class` 파일(Byte code)을 `JVM`이 운영체제로 부터 할당받은 메모리 영역인 `Runtime Data Area`의 `method Area` 동적으로 올립니다.
 
 2. Execution Engine (실행 엔진)
    - JVM은 Method Area에 있는 바이트 코드를 Execution Engine에 옮겨 실행합니다
