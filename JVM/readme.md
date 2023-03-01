@@ -47,9 +47,9 @@ new 키워드로 생성된 데이터 (객체, 배열) 들이 위치한 영역입
 
 
 
-**Heap 구조**
+####**Heap 구조**
 
-- `Young Generation`
+- **Young Generation**
 
   1. `Eden`, `Survivor1,2`(16MB)
 
@@ -61,7 +61,7 @@ new 키워드로 생성된 데이터 (객체, 배열) 들이 위치한 영역입
 
      `Minor GC`가 발생하는 위치다 **Eden영역 또는 Survivor1 혹은 Survivor2에서 사용되지 않는 객체들을 삭제**한다.
 
- - `Old`
+ - **Old**
 
      **Survivor1, Survivor2에서 오랫동안 살아남은 객체들은 Old 영역에 위치한다**.
 
