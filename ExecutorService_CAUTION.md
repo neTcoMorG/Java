@@ -12,7 +12,7 @@ newFixedThreadPool(int N)는 N개의 Thread를 생성하여 **Thread pool**를 �
 
 
 
-N개의 요청에 `thread`를 1:1로 처리한다면 Thread 생성에 대한 비용, 너무 많은 요청에 의해 Thread가 많아지면 Context switch의 빈도가 높아 오버헤드가 발생하여 미리 Thread를 만들어두고 요청이 오면 대기중인 Thread를 할당해 처리하고 처리가 끝나면 다시 재사용 함으로써 오버헤드를 줄인다.
+N개의 요청에 `thread`를 1:1로 처리한다면 Thread 생성에 대한 비용, 스레드별 할당되는 메모리 그로인한 낭비, 또한 너무 많은 요청에 의해 Thread가 많아지면 Context switch의 빈도가 높아 오버헤드가 발생하여 미리 Thread를 만들어두고 요청이 오면 대기중인 Thread를 할당해 처리하고 처리가 끝나면 다시 재사용 함으로써 오버헤드를 줄인다.
 
 
 
