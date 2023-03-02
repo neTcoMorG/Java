@@ -1,6 +1,6 @@
 # ExecutorService.newFixedThreadPool(int) 주의점
 
-newFixedThreadPool(int N)는 N개의 Thread를 생성하여 **Thread pool**를 생성해주는 객체이다. 하지만 이 부분을 알지 못하면 **심각한 메모리 낭비와 프로그램이 죽는** 경험이 발생할 수 있다.
+newFixedThreadPool(int N)는 N개의 Thread를 생성하여 **Thread pool**를 생성해주는 객체이다. 하지만 이 부분을 알지 못하면 **심각한 메모리 낭비와 프로그램이 죽는** 경험이 발생할 수 있다 그 이유를 알아보고자 한다.
 
 
 
